@@ -5,6 +5,7 @@ exclude = [
   "cohere\\.com",          # bot protection returns 403 to automated checks; live for humans
   "platform\\.openai\\.com",
   "huggingface\\.co/blog", # occasionally 429s automated checks
+  "doi\\.org",              # ACM (dl.acm.org) 403s automated checks; live for humans
 ]
 # Be lenient with rate-limited hosts; retry before failing.
 max_retries = 3
