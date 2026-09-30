@@ -21,7 +21,7 @@ Evaluate retrieval and generation *separately*. A fluent, confident, wrong answe
 | [TruLens](https://github.com/truera/trulens) | Feedback functions over live traces (groundedness, relevance, harm) | Best for continuous eval of a running app |
 | [DeepEval](https://github.com/confident-ai/deepeval) | Pytest-style evals with 14+ LLM-judged metrics, CI integration | Best if you want evals as unit tests |
 | [Phoenix](https://github.com/Arize-AI/phoenix) | Tracing + LLM evals + experiments | Pairs observability with evaluation |
-| [BERGEN](https://github.com/facebookresearch/BERGEN) | Reproducible RAG benchmarking library (Meta) | Standardized retrieval+generation pipelines for research |
+| [BERGEN](https://github.com/naver/bergen) | Reproducible RAG benchmarking library (NAVER) | Standardized retrieval+generation pipelines for research |
 
 ## Building a golden set
 
