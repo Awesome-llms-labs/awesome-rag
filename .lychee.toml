@@ -1,0 +1,11 @@
+# lychee link-checker config
+# Pre-emptive excludes for sites known to block automated checks.
+# Note: exclude entries are regexes — domain-bare patterns cover www/subdomains.
+exclude = [
+  "cohere\\.com",          # bot protection returns 403 to automated checks; live for humans
+  "platform\\.openai\\.com",
+  "huggingface\\.co/blog", # occasionally 429s automated checks
+]
+# Be lenient with rate-limited hosts; retry before failing.
+max_retries = 3
+timeout = 30

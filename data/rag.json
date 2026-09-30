@@ -1,0 +1,1196 @@
+[
+  {
+    "name": "LlamaIndex",
+    "vendor": "LlamaIndex (run-llama)",
+    "url": "https://github.com/run-llama/llama_index",
+    "description": "Open-source Python data framework for building LLM applications over private data: data connectors, indexing/structuring tools, and advanced retrieval/query interfaces for RAG and agentic apps.",
+    "category": "framework",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/run-llama/llama_index",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Data connectors for APIs, PDFs, docs, SQL and more",
+      "300+ integration packages for LLM, embedding, and vector-store providers",
+      "Document parsing/extraction via LlamaParse",
+      "Workflows and document agents"
+    ],
+    "note": "Company focus has shifted toward LlamaParse; the OSS framework remains available (MIT) per its README."
+  },
+  {
+    "name": "LangChain",
+    "vendor": "LangChain (langchain-ai)",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "Open-source framework for building agents and LLM-powered applications, with a standard interface for models, embeddings, vector stores, retrievers, and composable chains.",
+    "category": "framework",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Standard interfaces for models, embeddings, vector stores, and retrievers",
+      "Large integration library for real-time data augmentation",
+      "LangGraph for controllable agent orchestration",
+      "LangSmith for evals, observability, and debugging"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Haystack",
+    "vendor": "deepset (deepset-ai)",
+    "url": "https://github.com/deepset-ai/haystack",
+    "description": "Open-source AI orchestration framework for building production-ready LLM applications in Python, with modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation.",
+    "category": "framework",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/deepset-ai/haystack",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Modular pipelines with retrieval, ranking, filtering, and routing components",
+      "Agent lifecycle hooks and built-in tracking of steps, token usage, and tool calls",
+      "Native async support and token-by-token streaming",
+      "Model- and vendor-agnostic integrations"
+    ],
+    "note": ""
+  },
+  {
+    "name": "RAGFlow",
+    "vendor": "infiniflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "Open-source RAG engine (Apache 2.0) that fuses RAG with agent capabilities as a context layer for LLMs, with a web UI and APIs for document ingestion, chunking visualization, and agentic retrieval.",
+    "category": "framework",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/infiniflow/ragflow",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Agentic retrieval with Low/Medium/High/Ultra thinking modes",
+      "Template-based chunking with visualization and human intervention",
+      "Knowledge compilation into Wikis, Graphs, Trees, Mind Maps, and Timelines",
+      "Multiple recall paired with fused re-ranking"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Verba",
+    "vendor": "Weaviate (weaviate)",
+    "url": "https://github.com/weaviate/Verba",
+    "description": "Community-driven open-source RAG chatbot application (BSD-3-Clause) powered by Weaviate, offering an end-to-end interface for retrieval-augmented generation with local or cloud LLM providers.",
+    "category": "framework",
+    "status": "archived",
+    "verified": true,
+    "source_url": "https://github.com/weaviate/Verba",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Hybrid search combining semantic and keyword search",
+      "Support for Ollama, OpenAI, Anthropic, Cohere, HuggingFace, Groq, and more",
+      "Multiple chunking techniques (token, sentence, semantic, recursive, code, JSON)",
+      "Docker deployment and 3D vector viewer"
+    ],
+    "note": "Discontinued by Weaviate; repository archived and read-only, no further updates."
+  },
+  {
+    "name": "txtai",
+    "vendor": "NeuML (neuml)",
+    "url": "https://github.com/neuml/txtai",
+    "description": "All-in-one AI framework (Apache 2.0) for semantic search, LLM orchestration, and language model workflows, centered on an embeddings database combining vector indexes, graph networks, and relational storage.",
+    "category": "framework",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/neuml/txtai",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Embeddings database unifying sparse/dense vector indexes with graph and SQL querying",
+      "RAG pipelines with citations, plus GraphRAG and speech-to-speech RAG examples",
+      "Agents built on smolagents connecting embeddings, pipelines, and workflows",
+      "Web and MCP APIs with JavaScript, Java, Rust, and Go bindings"
+    ],
+    "note": ""
+  },
+  {
+    "name": "R2R",
+    "vendor": "SciPhi-AI (SciPhi-AI)",
+    "url": "https://github.com/SciPhi-AI/R2R",
+    "description": "Advanced AI retrieval system (MIT) for agentic RAG with a RESTful API and Python/JS SDKs, including a Deep Research API for multi-step reasoning over a knowledge base and the internet.",
+    "category": "framework",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/SciPhi-AI/R2R",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Hybrid search (semantic + keyword) with reciprocal rank fusion",
+      "Multimodal ingestion of txt, pdf, json, png, mp3, and more",
+      "Knowledge graphs with automatic entity and relationship extraction",
+      "User and access management with authentication and collections"
+    ],
+    "note": ""
+  },
+  {
+    "name": "RAGatouille",
+    "vendor": "AnswerDotAI (AnswerDotAI)",
+    "url": "https://github.com/AnswerDotAI/RAGatouille",
+    "description": "Library (Apache 2.0) for easily using and training state-of-the-art late-interaction retrieval models (ColBERT) in any RAG pipeline, covering training, indexing, and document retrieval with strong defaults.",
+    "category": "framework",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/AnswerDotAI/RAGatouille",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Train and fine-tune ColBERT models with built-in training-data processing",
+      "Create compressed, on-disk ColBERT indexes from documents",
+      "Search indexes with ranked results including content, scores, and metadata",
+      "Integrations with Haystack, LlamaIndex, LangChain, and Vespa"
+    ],
+    "note": "Repository renamed/moved from bclavie/RAGatouille to AnswerDotAI/RAGatouille; canonical URL used here."
+  },
+  {
+    "name": "LangChain4j",
+    "vendor": "LangChain4j (langchain4j)",
+    "url": "https://github.com/langchain4j/langchain4j",
+    "description": "Idiomatic open-source Java library for building LLM-powered applications on the JVM, with a unified API over LLM providers and embedding stores and easy agents and RAG pipelines in Java.",
+    "category": "framework",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/langchain4j/langchain4j",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Unified API over 20+ LLM providers and 30+ embedding (vector) stores",
+      "Toolbox spanning prompt templating, chat memory, function calling, agents, and RAG",
+      "Dedicated easy-rag module for RAG pipelines",
+      "Integrations with Quarkus, Spring Boot, Helidon, and Micronaut"
+    ],
+    "note": ""
+  },
+  {
+    "name": "fastRAG",
+    "vendor": "Intel Labs (IntelLabs)",
+    "url": "https://github.com/IntelLabs/fastRAG",
+    "description": "Research framework (Apache 2.0) for efficient retrieval-augmented generative pipelines, providing optimized embedders, rankers, and ColBERT/PLAID components compatible with Haystack.",
+    "category": "framework",
+    "status": "archived",
+    "verified": true,
+    "source_url": "https://github.com/IntelLabs/fastRAG",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Optimized int8 bi-encoders and sparse cross-encoder rankers",
+      "ColBERT token-based late interaction with PLAID indexing",
+      "Fusion-in-Decoder and REPLUG generative multi-document components",
+      "Haystack-compatible components"
+    ],
+    "note": "Archived by Intel Labs; no maintenance, bug fixes, or new releases. Included as a historically notable RAG research framework."
+  },
+  {
+    "name": "Pinecone",
+    "vendor": "Pinecone",
+    "url": "https://www.pinecone.io/",
+    "description": "Fully managed proprietary vector database built for AI, with instant-write indexing and fast vector queries at scale, managed through a console or terminal.",
+    "category": "vector-db",
+    "status": "commercial",
+    "verified": true,
+    "source_url": "https://www.pinecone.io/",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Fully managed vector database with no infrastructure to operate",
+      "Automatic indexing with no tuning required",
+      "Enterprise governance, compliance, and reliability controls"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Weaviate",
+    "vendor": "Weaviate (weaviate)",
+    "url": "https://github.com/weaviate/weaviate",
+    "description": "Open-source, cloud-native vector database written in Go that stores objects and vectors together, combining vector similarity search with keyword filtering, generative (RAG) search, and reranking in a single query interface.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/weaviate/weaviate",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Advanced hybrid search combining semantic and keyword (BM25) search",
+      "Built-in generative search (RAG) and reranking capabilities",
+      "Automatic vectorization at import via integrated embedding models",
+      "Horizontal scaling, multi-tenancy, replication, and RBAC"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Qdrant",
+    "vendor": "Qdrant (qdrant)",
+    "url": "https://github.com/qdrant/qdrant",
+    "description": "Vector similarity search engine and database (Apache 2.0) written in Rust, providing a production-ready service to store, search, and manage points (vectors with JSON payload).",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/qdrant/qdrant",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Dense, sparse, and multi-vector search including ColBERT-style late interaction",
+      "Rich payload filtering combined with hybrid search fusion (RRF, DBSF)",
+      "Built-in vector quantization with tunable speed/precision trade-offs",
+      "REST and gRPC APIs, distributed deployment with sharding and replication"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Milvus",
+    "vendor": "milvus-io (LF AI & Data Foundation)",
+    "url": "https://github.com/milvus-io/milvus",
+    "description": "High-performance, cloud-native vector database (Apache 2.0) built for scalable ANN search, organizing and searching vast amounts of unstructured data with a distributed, Kubernetes-native architecture.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/milvus-io/milvus",
+    "verified_date": "2026-09-30",
+    "features": [
+      "All major vector index types (HNSW, IVF, FLAT, DiskANN) with GPU indexing support",
+      "Hybrid search combining dense vectors with native full-text/BM25 and sparse embeddings",
+      "Real-time streaming updates with horizontal scaling and high availability",
+      "Multi-tenancy, RBAC, TLS, and hot/cold storage tiers"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Chroma",
+    "vendor": "Chroma (chroma-core)",
+    "url": "https://github.com/chroma-core/chroma",
+    "description": "Open-source data infrastructure for AI (Apache 2.0) centered on embeddings search, with a minimal 4-function Python/JS API that runs in-memory, persisted locally, or as a client-server deployment.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/chroma-core/chroma",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Core API of four functions: create_collection, add, query, get",
+      "Automatic tokenization, embedding, and indexing with optional custom embeddings",
+      "Metadata filtering and persistence from in-memory prototyping to server mode",
+      "Managed Chroma Cloud service alongside the open-source engine"
+    ],
+    "note": ""
+  },
+  {
+    "name": "pgvector",
+    "vendor": "pgvector (pgvector)",
+    "url": "https://github.com/pgvector/pgvector",
+    "description": "Open-source vector similarity search extension for Postgres, storing vectors alongside the rest of relational data with exact and approximate nearest neighbor search under Postgres ACID semantics.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/pgvector/pgvector",
+    "verified_date": "2026-09-30",
+    "features": [
+      "HNSW and IVFFlat approximate nearest neighbor indexes",
+      "Single-precision, half-precision, binary, and sparse vector types",
+      "L2, inner product, cosine, L1, Hamming, and Jaccard distance operators",
+      "ACID compliance, point-in-time recovery, and JOINs with relational data"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Elasticsearch",
+    "vendor": "Elastic (elastic)",
+    "url": "https://github.com/elastic/elasticsearch",
+    "description": "Distributed search and analytics engine that also serves as a vector database, supporting near-real-time search over massive datasets including vector search and RAG integrations.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/elastic/elasticsearch",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Vector search and hybrid retrieval for RAG use cases",
+      "Full-text search alongside vector search in one engine",
+      "Distributed RESTful architecture with language clients",
+      "Kibana integration and managed deployments on Elastic Cloud"
+    ],
+    "note": "Elastic's server-side source code is under Elastic License/SSPL terms, not an OSI open-source license."
+  },
+  {
+    "name": "OpenSearch",
+    "vendor": "OpenSearch Project (opensearch-project)",
+    "url": "https://github.com/opensearch-project/OpenSearch",
+    "description": "Open-source, Apache 2.0 distributed search and observability suite; a community-driven fork of Elasticsearch used for search over unstructured data at scale.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/opensearch-project/OpenSearch",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Open-source distributed and RESTful search engine",
+      "Enterprise-grade search and observability suite",
+      "Apache 2.0 license with Linux Foundation governance"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Vespa",
+    "vendor": "Vespa.ai (vespa-engine)",
+    "url": "https://github.com/vespa-engine/vespa",
+    "description": "AI search platform (Apache 2.0) for search, inference, and organizing vectors, tensors, text, and structured data at serving time and any scale, used by large internet services serving high query volumes.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/vespa-engine/vespa",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Unified search, ranking, and ML inference over vectors, tensors, and text at serving time",
+      "Designed for sub-100ms query latency over continuously changing corpora",
+      "Free trial cloud deployments plus self-hosted operation"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Typesense",
+    "vendor": "Typesense (typesense)",
+    "url": "https://github.com/typesense/typesense",
+    "description": "Fast, typo-tolerant search engine (GPL-3.0) positioned as an open-source alternative to Algolia, Pinecone, and Elasticsearch, supporting vector search, semantic/hybrid search, and built-in conversational RAG.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/typesense/typesense",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Vector search on embeddings with nearest-neighbor retrieval",
+      "Semantic/hybrid search with built-in embedding models or external providers",
+      "Conversational search (built-in RAG) generating answers over indexed data",
+      "Single-binary deployment with Raft-based clustering"
+    ],
+    "note": "GPL-3.0 licensed; check license implications for commercial use."
+  },
+  {
+    "name": "LanceDB",
+    "vendor": "LanceDB (lancedb)",
+    "url": "https://github.com/lancedb/lancedb",
+    "description": "Developer-friendly open-source embedded retrieval library (Apache 2.0) for multimodal AI built on the Lance columnar format, running locally or in the cloud for vector, full-text, and SQL search.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/lancedb/lancedb",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Vector similarity, full-text, and SQL search over multimodal data",
+      "Built on the Lance columnar format for storage and analytics",
+      "Automatic versioning and zero-copy data management",
+      "Python, Node.js, Rust, and REST SDKs with LangChain/LlamaIndex integrations"
+    ],
+    "note": ""
+  },
+  {
+    "name": "FAISS",
+    "vendor": "Meta (facebookresearch)",
+    "url": "https://github.com/facebookresearch/faiss",
+    "description": "Library (MIT) for efficient similarity search and clustering of dense vectors, developed at Meta's Fundamental AI Research group, with indexes scaling from in-memory to datasets that do not fit in RAM.",
+    "category": "vector-db",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/facebookresearch/faiss",
+    "verified_date": "2026-09-30",
+    "features": [
+      "L2, dot product, and cosine similarity search with exact and approximate indexes",
+      "GPU-accelerated indexes as drop-in replacements for CPU indexes",
+      "Compact quantization codes scaling to billions of vectors on a single server",
+      "C++ core with complete Python/numpy wrappers"
+    ],
+    "note": ""
+  },
+  {
+    "name": "GraphRAG",
+    "vendor": "Microsoft",
+    "url": "https://github.com/microsoft/graphrag",
+    "description": "Microsoft Research graph-based RAG system that extracts structured data from unstructured text to answer complex questions over private data.",
+    "category": "pattern",
+    "status": "maintenance",
+    "verified": true,
+    "source_url": "https://github.com/microsoft/graphrag",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Graph-based targeted context for QA",
+      "Structured data extraction from unstructured text",
+      "CLI quickstart",
+      "Prompt-tuning guide"
+    ],
+    "note": "Official README states the project is largely in maintenance mode (no new features or PRs, bug fixes and dependency updates only) and is a research demonstration, not an officially supported Microsoft offering."
+  },
+  {
+    "name": "LightRAG",
+    "vendor": "HKUDS",
+    "url": "https://github.com/HKUDS/LightRAG",
+    "description": "Lightweight graph-based RAG implementation designed to be simpler and faster to set up than full GraphRAG pipelines. MIT-licensed and actively maintained.",
+    "category": "pattern",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/HKUDS/LightRAG",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Lightweight graph-based RAG",
+      "Selectable query modes and reranking",
+      "Multiple storage backends",
+      "WebUI and API",
+      "Multimodal handling",
+      "RAGAS evaluation and Langfuse tracing"
+    ],
+    "note": ""
+  },
+  {
+    "name": "nano-graphrag",
+    "vendor": "gusye1234",
+    "url": "https://github.com/gusye1234/nano-graphrag",
+    "description": "Compact, minimal GraphRAG implementation intended as a small, hackable codebase for experimenting with graph-based retrieval. MIT-licensed.",
+    "category": "pattern",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/gusye1234/nano-graphrag",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Compact GraphRAG implementation",
+      "Local, global, and naive query modes",
+      "Async APIs",
+      "Incremental insertion",
+      "Pluggable vector and graph storage"
+    ],
+    "note": ""
+  },
+  {
+    "name": "HippoRAG",
+    "vendor": "OSU NLP Group",
+    "url": "https://github.com/OSU-NLP-Group/HippoRAG",
+    "description": "Neurobiologically inspired long-term-memory framework for LLMs that builds knowledge graphs from documents to support multi-hop retrieval. MIT-licensed.",
+    "category": "pattern",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/OSU-NLP-Group/HippoRAG",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Long-term-memory-inspired framework",
+      "Knowledge connections and multi-hop retrieval",
+      "OpenAI-compatible and local vLLM endpoints",
+      "Qdrant, ChromaDB, and Milvus vector stores"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Self-RAG",
+    "vendor": "Asai et al.",
+    "url": "https://arxiv.org/abs/2310.11511",
+    "description": "Adaptive retrieval framework that trains a single language model to retrieve on demand and critique its own retrieved passages and generations using reflection tokens.",
+    "category": "pattern",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2310.11511",
+    "verified_date": "2026-09-30",
+    "features": [
+      "On-demand retrieval",
+      "Reflection tokens",
+      "Critiques retrieved passages and generated output"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Corrective RAG (CRAG)",
+    "vendor": "Yan et al.",
+    "url": "https://arxiv.org/abs/2401.15884",
+    "description": "Corrective Retrieval Augmented Generation: adds a lightweight retrieval evaluator that triggers corrective actions, such as web search or document filtering, when retrieval confidence is low.",
+    "category": "pattern",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2401.15884",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Lightweight retrieval evaluator",
+      "Confidence-triggered retrieval actions",
+      "Web-search extension",
+      "Decompose-then-recompose filtering"
+    ],
+    "note": ""
+  },
+  {
+    "name": "RAPTOR",
+    "vendor": "Sarthi et al.",
+    "url": "https://arxiv.org/abs/2401.18059",
+    "description": "Tree-organized retrieval: recursively embeds, clusters, and summarizes text chunks into a tree so retrieval can happen at multiple abstraction levels.",
+    "category": "pattern",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2401.18059",
+    "features": [
+      "Recursive embedding, clustering, and summarization of chunks",
+      "Tree retrieval across abstraction levels"
+    ],
+    "note": "",
+    "verified_date": "2026-09-30"
+  },
+  {
+    "name": "HyDE",
+    "vendor": "Gao et al.",
+    "url": "https://arxiv.org/abs/2212.10496",
+    "description": "Zero-shot dense retrieval method: an LLM generates a hypothetical document answering the query, which is embedded and used to retrieve real documents from the corpus.",
+    "category": "pattern",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2212.10496",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Generates hypothetical document",
+      "Embeds it as the query vector",
+      "Retrieves real documents from corpus embedding space"
+    ],
+    "note": ""
+  },
+  {
+    "name": "FLARE",
+    "vendor": "Jiang et al.",
+    "url": "https://arxiv.org/abs/2305.06983",
+    "description": "Active retrieval augmented generation: the model decides when and what to retrieve during generation, predicting the upcoming sentence and regenerating when confidence is low.",
+    "category": "pattern",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2305.06983",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Decides when and what to retrieve during generation",
+      "Predicts upcoming sentence",
+      "Regenerates on low-confidence tokens"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Ragas",
+    "vendor": "Vibrant Labs",
+    "url": "https://github.com/vibrantlabsai/ragas",
+    "description": "Open-source LLM evaluation framework with objective metrics, test-set generation, and production feedback loops for RAG and agent applications. Apache-2.0.",
+    "category": "evaluation",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/vibrantlabsai/ragas",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Objective LLM-based and traditional metrics",
+      "Automated test data generation",
+      "LangChain and observability integrations",
+      "Production feedback loops"
+    ],
+    "note": "Repository transferred/renamed from explodinggradients/ragas to vibrantlabsai/ragas; use the new canonical URL."
+  },
+  {
+    "name": "DeepEval",
+    "vendor": "Confident AI",
+    "url": "https://github.com/confident-ai/deepeval",
+    "description": "Open-source LLM evaluation framework with pytest-style assertions, 50+ ready-to-use metrics (including RAG, agent, safety, and conversational metrics), and synthetic dataset generation. Local-first, Apache-2.0.",
+    "category": "evaluation",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/confident-ai/deepeval",
+    "verified_date": "2026-09-30",
+    "features": [
+      "50+ research-backed metrics",
+      "Pytest-style assertions and CI runner",
+      "Synthetic dataset generation",
+      "Local-first execution",
+      "Native Confident AI platform integration"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Promptfoo",
+    "vendor": "Promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "description": "Open-source toolkit for testing LLM prompts across providers with assertions, metrics, and red teaming. Ships as CLI, library, and CI integration.",
+    "category": "evaluation",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/promptfoo/promptfoo",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Prompt testing across providers",
+      "Assertions and metrics",
+      "Red teaming",
+      "CLI, library, and CI integration",
+      "Browser-based results viewer"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Phoenix",
+    "vendor": "Arize AI",
+    "url": "https://github.com/Arize-AI/phoenix",
+    "description": "Open-source AI observability platform from Arize AI with OpenTelemetry tracing, response and retrieval evaluations, versioned datasets, experiments, and prompt management.",
+    "category": "evaluation",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/Arize-AI/phoenix",
+    "verified_date": "2026-09-30",
+    "features": [
+      "OpenTelemetry tracing",
+      "Response and retrieval evals",
+      "Versioned datasets",
+      "Experiments",
+      "Prompt playground and management"
+    ],
+    "note": ""
+  },
+  {
+    "name": "FlashRAG",
+    "vendor": "RUC NLPIR",
+    "url": "https://github.com/ruc-nlpir/flashrag",
+    "description": "Python research toolkit for RAG with modular retrievers, rerankers, generators, and compressors, plus preprocessed benchmark datasets and ready-made advanced RAG implementations.",
+    "category": "evaluation",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/ruc-nlpir/flashrag",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Modular retrievers, rerankers, generators, compressors",
+      "Preprocessed benchmark datasets",
+      "Advanced RAG algorithm implementations",
+      "Preprocessing and index scripts",
+      "Interactive UI"
+    ],
+    "note": ""
+  },
+  {
+    "name": "BERGEN",
+    "vendor": "NAVER",
+    "url": "https://github.com/naver/bergen",
+    "description": "End-to-end benchmarking library for reproducible RAG experiments, supporting many retrievers, rerankers, LLMs, metrics, and QA datasets through a simple YAML/Hydra configuration system.",
+    "category": "benchmark",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/naver/bergen",
+    "verified_date": "2026-09-30",
+    "features": [
+      "20+ retrievers, 4 rerankers, 20+ LLMs",
+      "YAML configuration system",
+      "Hydra-based experiment configs",
+      "Multilingual experiments",
+      "Match, EM, and LLM-based metrics"
+    ],
+    "note": "Released under CC BY-NC-SA 4.0 (non-commercial use only)."
+  },
+  {
+    "name": "RGB",
+    "vendor": "Chen et al.",
+    "url": "https://github.com/chen700564/RGB",
+    "description": "Bilingual (English/Chinese) benchmark for RAG LLMs measuring noise robustness, negative rejection, information integration, and counterfactual robustness.",
+    "category": "benchmark",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/chen700564/RGB",
+    "verified_date": "2026-09-30",
+    "features": [
+      "English and Chinese corpora",
+      "Noise robustness evaluation",
+      "Negative rejection evaluation",
+      "Information integration evaluation",
+      "Counterfactual robustness evaluation"
+    ],
+    "note": "Code and data released under CC BY-NC-SA 4.0 (non-commercial use only)."
+  },
+  {
+    "name": "KILT",
+    "vendor": "Meta",
+    "url": "https://github.com/facebookresearch/KILT",
+    "description": "Benchmark unifying 11 knowledge-intensive language tasks (fact checking, entity linking, slot filling, open-domain QA, dialogue) grounded in a single Wikipedia snapshot, with provenance evaluation.",
+    "category": "benchmark",
+    "status": "archived",
+    "verified": true,
+    "source_url": "https://github.com/facebookresearch/KILT",
+    "verified_date": "2026-09-30",
+    "features": [
+      "11 datasets across 5 task families",
+      "Single shared Wikipedia snapshot",
+      "R-precision provenance evaluation",
+      "Retrieval evaluation scripts",
+      "Datasets hosted on Hugging Face"
+    ],
+    "note": "Repository is archived (read-only); datasets remain available via Hugging Face."
+  },
+  {
+    "name": "BEIR",
+    "vendor": "UKP Lab",
+    "url": "https://github.com/beir-cellar/beir",
+    "description": "Heterogeneous information-retrieval benchmark with a common framework for evaluating NLP-based retrieval models across diverse IR datasets (17 preprocessed datasets per the README), covering dense, lexical, sparse, and reranking architectures.",
+    "category": "benchmark",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/beir-cellar/beir",
+    "verified_date": "2026-09-30",
+    "features": [
+      "17 preprocessed IR datasets",
+      "Zero-shot evaluation framework",
+      "Lexical, dense, sparse, and reranking evaluation",
+      "NDCG, MAP, Recall, Precision, MRR metrics",
+      "Datasets hosted on Hugging Face"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "vendor": "Lewis et al.",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "description": "Foundational 2020 paper introducing RAG: parametric seq2seq memory combined with non-parametric dense retrieval over Wikipedia, fine-tuned end-to-end with retrieved documents as a latent variable. Set state of the art on three open-domain QA tasks.",
+    "category": "paper",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2005.11401",
+    "verified_date": "2026-09-30",
+    "features": [
+      "RAG-Sequence and RAG-Token formulations",
+      "Dense Passage Retriever over Wikipedia index",
+      "End-to-end fine-tuning with latent-variable marginalization",
+      "State-of-the-art on three open-domain QA tasks"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "vendor": "Gao et al.",
+    "url": "https://arxiv.org/abs/2312.10997",
+    "description": "Comprehensive survey organizing RAG into Naive, Advanced, and Modular paradigms, covering indexing, retrieval, generation, augmentation techniques, and evaluation frameworks.",
+    "category": "paper",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2312.10997",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Naive / Advanced / Modular RAG taxonomy",
+      "Tripartite foundation: retrieval, generation, augmentation",
+      "Evaluation frameworks and benchmarks",
+      "Open challenges and research directions"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Lost in the Middle: How Language Models Use Long Contexts",
+    "vendor": "Liu et al.",
+    "url": "https://arxiv.org/abs/2307.03172",
+    "description": "Empirical study showing LLM performance on multi-document QA and key-value retrieval degrades when relevant information sits in the middle of long contexts; best at the beginning or end. Directly motivates reranking and context ordering in RAG.",
+    "category": "paper",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2307.03172",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Multi-document QA and key-value retrieval analysis",
+      "Positional performance degradation finding",
+      "Evaluation protocols for long-context models"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Ragas: Automated Evaluation of Retrieval Augmented Generation",
+    "vendor": "Es et al.",
+    "url": "https://arxiv.org/abs/2309.15217",
+    "description": "Introduces Ragas (Retrieval Augmented Generation Assessment): reference-free metrics for evaluating RAG pipelines across retrieval, faithfulness, and generation quality without human-annotated ground truth.",
+    "category": "paper",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2309.15217",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Reference-free evaluation metrics",
+      "Separate retrieval, faithfulness, and generation dimensions",
+      "No ground-truth annotations required"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Seven Failure Points When Engineering a Retrieval Augmented Generation System",
+    "vendor": "Barnett et al.",
+    "url": "https://arxiv.org/abs/2401.05856",
+    "description": "Experience report from three case studies (research, education, biomedical) cataloguing seven failure points in engineering RAG systems and arguing robustness emerges through operation rather than upfront design.",
+    "category": "paper",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2401.05856",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Seven failure points: missing content, missed top-ranked docs, not in context, not extracted, wrong format, incorrect specificity, incomplete",
+      "Cross-domain case studies",
+      "Research directions for RAG robustness"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Contextual Retrieval",
+    "vendor": "Anthropic",
+    "url": "https://www.anthropic.com/engineering/contextual-retrieval",
+    "description": "Anthropic's official technique for improving RAG retrieval: prepending LLM-generated, chunk-specific context before embedding (Contextual Embeddings) and indexing (Contextual BM25). Reported to reduce top-20 retrieval failures by 49%, or 67% when combined with reranking.",
+    "category": "guide",
+    "status": "commercial",
+    "verified": true,
+    "source_url": "https://www.anthropic.com/engineering/contextual-retrieval",
+    "verified_date": "2026-09-30",
+    "features": [
+      "Contextual Embeddings",
+      "Contextual BM25",
+      "Reranking combination",
+      "Chunk-specific LLM-generated context"
+    ],
+    "note": ""
+  },
+  {
+    "name": "sentence-transformers",
+    "vendor": "Hugging Face",
+    "url": "https://github.com/huggingface/sentence-transformers",
+    "description": "Python library for dense sentence/text embeddings, cross-encoder rerankers, sparse encoders, and ColBERT-style multi-vector encoders, with training support and semantic-search use cases. Apache-2.0, actively maintained (original UKPLab/sentence-transformers now redirects here).",
+    "category": "embedding",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/huggingface/sentence-transformers",
+    "verified_date": "2026-09-30",
+    "features": [
+      "dense embeddings",
+      "cross-encoder rerankers",
+      "sparse encoders",
+      "multi-vector (ColBERT) encoders",
+      "semantic search",
+      "Apache-2.0"
+    ],
+    "note": ""
+  },
+  {
+    "name": "BGE / FlagEmbedding",
+    "vendor": "BAAI / FlagOpen",
+    "url": "https://github.com/FlagOpen/FlagEmbedding",
+    "description": "Retrieval toolkit for search and RAG: embedding and reranker model inference, fine-tuning, evaluation, and tutorials. BGE-M3 supports dense, sparse, and multi-vector/ColBERT retrieval over long multilingual inputs (up to 8192 tokens).",
+    "category": "embedding",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/FlagOpen/FlagEmbedding",
+    "verified_date": "2026-09-30",
+    "features": [
+      "dense + sparse + multi-vector retrieval",
+      "reranker models",
+      "fine-tuning",
+      "evaluation scripts",
+      "MIT license"
+    ],
+    "note": "The BGE reranker family is maintained inside this same toolkit repository."
+  },
+  {
+    "name": "E5",
+    "vendor": "Microsoft",
+    "url": "https://github.com/microsoft/unilm/tree/master/e5",
+    "description": "Microsoft's family of text embedding models (English, multilingual, unsupervised, and LLM-based) shipped with BEIR/MTEB evaluation scripts in the official unilm repository.",
+    "category": "embedding",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/microsoft/unilm/tree/master/e5",
+    "verified_date": "2026-09-30",
+    "features": [
+      "text embeddings",
+      "multilingual",
+      "BEIR/MTEB evaluation scripts"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Voyage AI Embeddings",
+    "vendor": "Voyage AI",
+    "url": "https://docs.voyageai.com/docs/embeddings",
+    "description": "Commercial embedding API with Voyage 4 general, lite, large, and code models, plus finance and legal models; offers query/document input types, selectable dimensions, quantized output types, and an open-weight voyage-4-nano model.",
+    "category": "embedding",
+    "status": "commercial",
+    "verified": true,
+    "source_url": "https://docs.voyageai.com/docs/embeddings",
+    "verified_date": "2026-09-30",
+    "features": [
+      "query/document input types",
+      "selectable dimensions",
+      "quantized outputs",
+      "domain-specific models",
+      "commercial API"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Cohere Embed",
+    "vendor": "Cohere",
+    "url": "https://docs.cohere.com/docs/embeddings",
+    "description": "Commercial embedding API (embed-v5.0-pro) for semantic search, classification, and clustering, with multilingual support, text/image/mixed-content embeddings, Matryoshka dimensions, and float/int8/uint8/binary/ubinary output types.",
+    "category": "embedding",
+    "status": "commercial",
+    "verified": true,
+    "source_url": "https://docs.cohere.com/docs/embeddings",
+    "verified_date": "2026-09-30",
+    "features": [
+      "text and image embeddings",
+      "multilingual",
+      "Matryoshka dimensions",
+      "quantized outputs",
+      "commercial API"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Jina Embeddings v3",
+    "vendor": "Jina AI",
+    "url": "https://huggingface.co/jinaai/jina-embeddings-v3",
+    "description": "Multilingual, multi-task open-weight embedding model supporting 8192-token sequences, five task-specific LoRA adapters, and Matryoshka truncation from 32 to 1024 dimensions.",
+    "category": "embedding",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://huggingface.co/jinaai/jina-embeddings-v3",
+    "verified_date": "2026-09-30",
+    "features": [
+      "multilingual embeddings",
+      "8192-token sequences",
+      "task adapters",
+      "Matryoshka dimensions",
+      "open weights"
+    ],
+    "note": "Licensed CC BY-NC 4.0; commercial use requires a separate arrangement."
+  },
+  {
+    "name": "Nomic Embed v2",
+    "vendor": "Nomic AI",
+    "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe",
+    "description": "Multilingual mixture-of-experts text embedding model with flexible 768-to-256 Matryoshka dimensions and open weights, code, and training data; supports SentenceTransformers and Transformers.",
+    "category": "embedding",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe",
+    "verified_date": "2026-09-30",
+    "features": [
+      "multilingual embeddings",
+      "mixture-of-experts",
+      "Matryoshka dimensions",
+      "open weights",
+      "open training data"
+    ],
+    "note": "512-token maximum sequence length; query/document prefixes required."
+  },
+  {
+    "name": "Unstructured",
+    "vendor": "Unstructured",
+    "url": "https://github.com/Unstructured-IO/unstructured",
+    "description": "Open-source library for ingesting and preprocessing PDFs, HTML, Word, images, and other formats for LLM/RAG pipelines: partitioning, chunking, embedding, structured output, connectors, and document-processing MCP support.",
+    "category": "chunking",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/Unstructured-IO/unstructured",
+    "verified_date": "2026-09-30",
+    "features": [
+      "document ingestion",
+      "partitioning",
+      "chunking",
+      "embedding",
+      "structured output",
+      "Apache-2.0"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Docling",
+    "vendor": "Docling Project",
+    "url": "https://github.com/docling-project/docling",
+    "description": "Document understanding library that parses PDFs, Office documents, and many other formats into a unified DoclingDocument with layout, reading order, table, and formula understanding plus OCR; runs fully locally, even air-gapped, and exports Markdown/HTML/JSON.",
+    "category": "chunking",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/docling-project/docling",
+    "verified_date": "2026-09-30",
+    "features": [
+      "document parsing",
+      "PDF layout understanding",
+      "OCR",
+      "local/air-gapped execution",
+      "Markdown/HTML/JSON export",
+      "MIT license"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Chonkie",
+    "vendor": "Feyn",
+    "url": "https://github.com/feyninc/chonkie",
+    "description": "Python chunking library offering token, sentence, recursive, semantic, late, code, neural, LLM, table, and fast chunkers, plus chunking pipelines, a REST API, embedding providers, and vector-store integrations.",
+    "category": "chunking",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/feyninc/chonkie",
+    "verified_date": "2026-09-30",
+    "features": [
+      "multiple chunkers",
+      "chunking pipelines",
+      "REST API",
+      "vector-store integrations",
+      "MIT license"
+    ],
+    "note": "Canonical repository moved from chonkie-inc/chonkie to feyninc/chonkie."
+  },
+  {
+    "name": "MinerU",
+    "vendor": "OpenDataLab",
+    "url": "https://github.com/opendatalab/MinerU",
+    "description": "PDF and document extraction tool with OCR and four parsing tiers, supporting PDF, images, Office, OpenDocument, EPUB, OFD, HTML, and CSV with structured outputs and stable page/block locators. The README states MinerU is not a RAG framework.",
+    "category": "chunking",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/opendatalab/MinerU",
+    "verified_date": "2026-09-30",
+    "features": [
+      "PDF extraction",
+      "OCR",
+      "structured outputs"
+    ],
+    "note": "GitHub reports its license as NOASSERTION (unclear/custom)."
+  },
+  {
+    "name": "SPLADE",
+    "vendor": "NAVER AI Lab",
+    "url": "https://github.com/naver/splade",
+    "description": "Learned sparse retrieval method that uses a BERT MLM head for query/document expansion, enabling explicit lexical matching over an inverted index; ships training, indexing, and retrieval code with pretrained weights and BEIR/PISA evaluation.",
+    "category": "retrieval",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/naver/splade",
+    "verified_date": "2026-09-30",
+    "features": [
+      "sparse retrieval",
+      "query/document expansion",
+      "inverted-index retrieval",
+      "pretrained weights"
+    ],
+    "note": "GitHub reports its license as NOASSERTION."
+  },
+  {
+    "name": "ColBERT",
+    "vendor": "Stanford",
+    "url": "https://github.com/stanford-futuredata/ColBERT",
+    "description": "Late-interaction retrieval model that encodes queries and documents into token-level embeddings scored with MaxSim contextual late interaction; includes indexing, search, training, ColBERTv2 plus PLAID, and a lightweight search server.",
+    "category": "retrieval",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/stanford-futuredata/ColBERT",
+    "verified_date": "2026-09-30",
+    "features": [
+      "late interaction",
+      "token-level embeddings",
+      "indexing and search",
+      "search server",
+      "MIT license"
+    ],
+    "note": ""
+  },
+  {
+    "name": "ColPali",
+    "vendor": "Illuin Technology",
+    "url": "https://github.com/illuin-tech/colpali",
+    "description": "Visual document retrievers that embed document page images directly using vision-language models with multi-vector embeddings and ColBERT-style late interaction, capturing text, layout, charts, and other visual content.",
+    "category": "retrieval",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/illuin-tech/colpali",
+    "verified_date": "2026-09-30",
+    "features": [
+      "visual document retrieval",
+      "multi-vector embeddings",
+      "late interaction",
+      "MIT license"
+    ],
+    "note": "Repository moved from vidore/colpali to illuin-tech/colpali; the ColPali Engine package is deprecated while the repository and model family remain active with migration guidance."
+  },
+  {
+    "name": "FlashRank",
+    "vendor": "Prithiviraj Damodaran",
+    "url": "https://github.com/PrithivirajDamodaran/FlashRank",
+    "description": "Ultra-lightweight Python reranking library supporting pairwise and pointwise cross-encoder rerankers as well as listwise LLM rerankers. Apache-2.0.",
+    "category": "retrieval",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/PrithivirajDamodaran/FlashRank",
+    "verified_date": "2026-09-30",
+    "features": [
+      "cross-encoder rerankers",
+      "LLM listwise rerankers",
+      "Apache-2.0"
+    ],
+    "note": "Verified canonical path is PrithivirajDamodaran/FlashRank."
+  },
+  {
+    "name": "Cohere Rerank",
+    "vendor": "Cohere",
+    "url": "https://docs.cohere.com/reference/rerank",
+    "description": "Commercial Rerank API (v2) that takes a query and a list of documents and returns them ordered by relevance score, commonly used as a second-stage ranker in RAG pipelines; supports top_n, max_tokens_per_doc, and document metadata.",
+    "category": "retrieval",
+    "status": "commercial",
+    "verified": true,
+    "source_url": "https://docs.cohere.com/reference/rerank",
+    "verified_date": "2026-09-30",
+    "features": [
+      "relevance scoring",
+      "top_n filtering",
+      "commercial API"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Voyage Rerank",
+    "vendor": "Voyage AI",
+    "url": "https://docs.voyageai.com/reference/reranker-api",
+    "description": "Commercial rerank API (rerank-2.5 family) that scores a query against a list of documents and returns reranking results with relevance scores; supports up to 1,000 documents per request, top_k, return_documents, and truncation options.",
+    "category": "retrieval",
+    "status": "commercial",
+    "verified": true,
+    "source_url": "https://docs.voyageai.com/reference/reranker-api",
+    "verified_date": "2026-09-30",
+    "features": [
+      "relevance scoring",
+      "top_k filtering",
+      "commercial API"
+    ],
+    "note": ""
+  },
+  {
+    "name": "BGE Reranker",
+    "vendor": "BAAI / FlagOpen",
+    "url": "https://github.com/FlagOpen/FlagEmbedding",
+    "description": "Open cross-encoder reranker model family (including bge-reranker-v2-m3) maintained in the FlagEmbedding toolkit for second-stage re-ranking in search and RAG pipelines.",
+    "category": "retrieval",
+    "status": "active",
+    "verified": true,
+    "source_url": "https://github.com/FlagOpen/FlagEmbedding",
+    "verified_date": "2026-09-30",
+    "features": [
+      "cross-encoder reranking",
+      "open weights",
+      "MIT-licensed toolkit"
+    ],
+    "note": "The models are distributed via the FlagEmbedding toolkit repository rather than a standalone repository."
+  },
+  {
+    "name": "RankGPT",
+    "vendor": "Weiwei Sun et al.",
+    "url": "https://arxiv.org/abs/2304.09542",
+    "description": "Research paper investigating generative LLMs such as ChatGPT and GPT-4 as re-ranking agents for information retrieval, and distilling their ranking ability into small specialized models via a permutation distillation scheme.",
+    "category": "retrieval",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2304.09542",
+    "verified_date": "2026-09-30",
+    "features": [
+      "LLM-based reranking",
+      "permutation distillation",
+      "research paper"
+    ],
+    "note": "Full title: 'Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents'."
+  },
+  {
+    "name": "Reciprocal Rank Fusion (RRF)",
+    "vendor": "Cormack, Clarke & Buettcher",
+    "url": "https://doi.org/10.1145/1571941.1572114",
+    "description": "Paper defining Reciprocal Rank Fusion, a simple unsupervised method for combining document rankings from multiple IR systems that consistently beats any individual system and the standard Condorcet Fuse baseline. Presented at SIGIR 2009.",
+    "category": "retrieval",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://doi.org/10.1145/1571941.1572114",
+    "verified_date": "2026-09-30",
+    "features": [
+      "rank fusion",
+      "hybrid search",
+      "unsupervised",
+      "research paper"
+    ],
+    "note": "No arXiv version exists; the DOI above is the official ACM record for the SIGIR 2009 paper."
+  }
+]

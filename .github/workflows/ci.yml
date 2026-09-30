@@ -1,0 +1,63 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  links:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml --no-progress './**/*.md'
+          fail: true
+
+  data:
+    name: Validate data files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate rag.json
+        run: |
+          python3 - <<'EOF'
+          import json
+
+          required = {"name", "vendor", "url", "description",
+                      "verified", "source_url", "verified_date",
+                      "status", "category", "features"}
+          statuses = {"active", "maintenance", "archived", "commercial", "paper"}
+          categories = {"framework", "vector-db", "embedding", "chunking",
+                        "retrieval", "pattern", "evaluation", "benchmark",
+                        "paper", "guide"}
+          path = "data/rag.json"
+          data = json.load(open(path))
+          assert isinstance(data, list) and data, f"{path} must be a non-empty list"
+          for i, e in enumerate(data):
+              missing = required - e.keys()
+              assert not missing, f"entry {i} ({e.get('name')}) missing {missing}"
+              assert e["category"] in categories, f"entry {i} bad category {e['category']}"
+              assert e["status"] in statuses, f"entry {i} bad status {e['status']}"
+              assert isinstance(e["verified"], bool), \
+                  f"entry {i} verified not bool"
+              assert e["url"].startswith("https://"), f"entry {i} url must be https"
+              if e["verified"]:
+                  assert e["source_url"].startswith("https://"), \
+                      f"entry {i} verified entry needs https source_url"
+                  assert e["verified_date"], \
+                      f"entry {i} verified entry needs verified_date"
+              assert isinstance(e["features"], list), \
+                  f"entry {i} features must be a list"
+          names = [e["name"] for e in data]
+          assert len(names) == len(set(names)), f"{path} duplicate names"
+          print(f"OK: {path}: {len(data)} entries validated")
+          verified = sum(1 for e in data if e["verified"])
+          print(f"OK: {verified}/{len(data)} entries verified on official sources")
+          EOF
