@@ -1192,5 +1192,56 @@
       "research paper"
     ],
     "note": "No arXiv version exists; the DOI above is the official ACM record for the SIGIR 2009 paper."
+  },
+  {
+    "name": "Do Current Retrievers Cover All the Evidence? A Controlled Study of Conjunctive Cross-Page Retrieval",
+    "vendor": "Cha et al.",
+    "url": "https://arxiv.org/abs/2607.24165",
+    "description": "Controlled benchmark study of conjunctive cross-page retrieval using n-Clue, which tests whether retrieved documents cover every requested condition.",
+    "category": "benchmark",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2607.24165",
+    "verified_date": "2026-10-03",
+    "features": [
+      "n-Clue includes 1,000 queries across 2,021 documents",
+      "Measures complete-first success for multi-condition cross-page retrieval",
+      "Compares 70 retrieval configurations"
+    ],
+    "note": ""
+  },
+  {
+    "name": "ReinPool: Reinforcement Learning Pooling Multi-Vector Embeddings for Retrieval System",
+    "vendor": "Cha et al.",
+    "url": "https://arxiv.org/abs/2601.07125",
+    "description": "Reinforcement-learning framework that filters and pools token-level multi-vector embeddings into compact, retrieval-optimized representations without manual importance annotations.",
+    "category": "retrieval",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2601.07125",
+    "verified_date": "2026-10-03",
+    "features": [
+      "Inverse-retrieval training objective with NDCG-based rewards",
+      "Evaluated on ViDoRe V2 across three vision-language embedding models",
+      "Compresses multi-vector representations into single vectors"
+    ],
+    "note": ""
+  },
+  {
+    "name": "Annotation-Free Reinforcement Learning Query Rewriting via Verifiable Search Reward",
+    "vendor": "Cha et al.",
+    "url": "https://arxiv.org/abs/2507.23242",
+    "description": "RL-QR trains query rewriting without human-annotated rewrites using verifiable search rewards derived from index-aligned synthetic queries.",
+    "category": "pattern",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2507.23242",
+    "verified_date": "2026-10-03",
+    "features": [
+      "Annotation-free reinforcement learning for query rewriting",
+      "Derives rewards from index-aligned synthetic queries",
+      "Evaluated with lexical and semantic retrieval on ViDoRe V2 and MS MARCO v2.1"
+    ],
+    "note": ""
   }
 ]
