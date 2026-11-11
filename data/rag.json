@@ -1192,5 +1192,55 @@
       "research paper"
     ],
     "note": "No arXiv version exists; the DOI above is the official ACM record for the SIGIR 2009 paper."
+  },
+  {
+    "name": "ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance",
+    "vendor": "Sijia Yao et al.",
+    "url": "https://aclanthology.org/2025.emnlp-main.963/",
+    "description": "Research method jointly optimizing LLM-based query expansion and a dense retriever.",
+    "category": "retrieval",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://aclanthology.org/2025.emnlp-main.963/",
+    "verified_date": "2026-11-11",
+    "features": [
+      "LLM-generated query expansions",
+      "joint generator/retriever optimization",
+      "dense retrieval"
+    ],
+    "note": ""
+  },
+  {
+    "name": "ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation",
+    "vendor": "Pengcheng Huang et al.",
+    "url": "https://arxiv.org/abs/2502.15543",
+    "description": "Research method suppressing unfaithfulness-associated FFNs and adapting the model toward retrieved context for faithful RAG.",
+    "category": "pattern",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2502.15543",
+    "verified_date": "2026-11-11",
+    "features": [
+      "FFN suppression",
+      "knowledge preference calibration",
+      "CoFaithfulQA benchmark"
+    ],
+    "note": ""
+  },
+  {
+    "name": "SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation",
+    "vendor": "Ruochang Li et al.",
+    "url": "https://arxiv.org/abs/2606.27786",
+    "description": "Research framework learning an adaptive FFN participation policy to mitigate context–memory conflicts in RAG.",
+    "category": "pattern",
+    "status": "paper",
+    "verified": true,
+    "source_url": "https://arxiv.org/abs/2606.27786",
+    "verified_date": "2026-11-11",
+    "features": [
+      "Adaptive FFN participation",
+      "frozen backbone"
+    ],
+    "note": ""
   }
 ]
