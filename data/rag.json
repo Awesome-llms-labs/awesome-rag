@@ -1192,5 +1192,21 @@
       "research paper"
     ],
     "note": "No arXiv version exists; the DOI above is the official ACM record for the SIGIR 2009 paper."
+  },
+  {
+    "name": "Axonio",
+    "vendor": "Axonio",
+    "url": "https://github.com/hackcat29/ClawDB",
+    "description": "Apache-2.0 database engine for persistent agent memory.",
+    "verified": true,
+    "source_url": "https://docs.axonio.xyz/architecture-and-runtimes/overview/",
+    "verified_date": "2026-11-17",
+    "status": "active",
+    "category": "vector-db",
+    "features": [
+      "Vector similarity search",
+      "Knowledge graph retrieval",
+      "Branchable memory state"
+    ]
   }
 ]
